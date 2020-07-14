@@ -1,0 +1,8 @@
+{
+	"cucumberautocomplete.steps": [
+			"/it/cypress/integration/*/*.steps.js"
+	],
+	"cucumberautocomplete.syncfeatures": "**/*.feature",
+	"cucumberautocomplete.strictGherkinCompletion": true,
+	"cucumberautocomplete.stepRegExSymbol": "'"
+}

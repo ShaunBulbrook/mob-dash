@@ -1,0 +1,16 @@
+{
+  "name": "it",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^4.10.0",
+    "cypress-cucumber-preprocessor": "^2.5.3"
+  },
+  "scripts": {
+    "it:watch": "cypress open"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
